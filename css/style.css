@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Ubuntu',sans-serif;
+    /* background: url('../images/Music.jpeg') no-repeat center/cover; */
+    background-color: rgb(12, 91, 123);
+}
+
+#navbar
+{
+    height:50px;
+    width: 100%;
+    display: flex;
+    background: linear-gradient(to right,skyblue,blue,darkblue);
+    align-items: center;
+}
+
+#navbar .logo
+{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    color: white;
+    margin: 0px 30px;
+}
+
+.logo img
+{
+    width:40px;
+    border-radius: 20px;
+    margin: 0px 10px;
+}
+
+#navbar ul
+{
+    width: 60%;
+    text-align: center;
+    position: relative;
+    right: 100px;
+}
+
+#navbar ul li
+{
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn
+{
+     padding: 5px;
+     border-radius: 5px;
+     display: block;
+     margin: auto;
+}
+
+.btn:hover
+{
+    background-color: red;
+    color:white;
+    font-weight: bold;
+}
+
+.container
+{
+    height:600px;
+    width:70%;
+    margin: 20px auto;
+    color: white;
+}
+
+.main
+{
+    display: flex;
+    align-items: center;
+}
+
+.container2::-webkit-scrollbar
+{
+    display: none;
+}
+.container1::-webkit-scrollbar
+{
+    display: none;
+}
+
+.container h2
+{
+    margin: 10px;
+}
+
+.container1
+{
+    height:400px;
+    width:82%;
+    padding: 20px;
+    overflow: scroll;
+    color: black;
+    background: linear-gradient(to right,skyblue,blue,darkblue);
+    display: flex;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.container2
+{
+    width: 50%;
+    margin: 10px 0px;
+    overflow: scroll;
+}
+
+.container3
+{
+    width: 50%;
+    height: 400px;
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#SongImg img
+{
+   width: 300px;
+}
+
+#SongImg
+{
+    display: flex;
+    justify-content: center;
+}
+.song
+{
+    width: 95%;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:linear-gradient(to right,Orange,goldenrod,Yellow);
+}
+
+.SongImage img
+{
+    width:30px;
+    border-radius: 20px;
+}
+
+.SongImage
+{
+    width: 30px;
+    height: 30px;
+    margin:0px 10px;
+    display: flex;
+    align-items: center;
+}
+.Name
+{
+    display: inline;
+    text-align: center;
+}
+
+.Play img
+{
+    width: 30px;
+}
+
+.Play
+{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+}
+
+.Box
+{
+    width: 100%;
+    background: linear-gradient(to right,skyblue,blue,darkblue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom: 0%;
+    color: white;
+}
+.box
+{
+    height:85px;
+    width:70%;
+    border-radius: 10px;
+}
+
+.progress
+{
+    width:95%;
+    height:5px;
+    margin:10px auto;
+    background-color: bisque;
+}
+
+.combo
+{
+    display: flex;
+    align-items: center;
+    margin-right:10px;
+}
+#ProgressBar
+{
+    width:0%;
+    height: 5px;
+    background-color: rgb(58, 58, 212);
+}
+
+.controls
+{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.controls img
+{
+    width: 30px;
+    margin: 0px 10px;
+    filter: invert();
+}
+
+#gif
+{
+    width: 40px;
+    margin: 0px 30px;
+    opacity: 0;
+}
+
+#songName
+{
+    display: inline-block;
+    color: white;
+}
+
+.footer
+{
+    width: 100%;
+    background: linear-gradient(to right,blue,black,blue);
+    text-align: center;
+}

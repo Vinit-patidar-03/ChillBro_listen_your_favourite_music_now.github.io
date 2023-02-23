@@ -1,0 +1,59 @@
+@media(max-width:950px) {
+    .container3 {
+        width: 0;
+        height: 0;
+    }
+
+    #navbar ul
+    {
+        width: 0px;
+    }
+
+    #navbar
+    {
+        height: 90px;
+        justify-content: center;
+    }
+    #navbar .logo
+    {
+       width:40%;
+       flex-direction: column;
+    }
+
+    #SongImg img {
+        width: 0;
+    }
+
+    .container2 {
+        width: 100%;
+    }
+
+    .song
+    {
+        margin: 20px 0px;
+        width: 98%;
+    }
+
+    .container1
+    {
+        height: 280px;
+    }
+
+    .container
+    {
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #gif {
+
+        margin: 0px;
+
+    }
+
+    #navbar ul li {
+        visibility: hidden;
+    }
+}
